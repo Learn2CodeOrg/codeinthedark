@@ -1,0 +1,151 @@
+<style>
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    .cf:after, .cf:before{
+        display: table;
+        content: ' ';
+    }
+    .cf:after{
+        clear: both;
+    }
+    .container{
+        width: 1100px;
+        margin: 0 auto;
+    }
+    h1{
+        display: inline-block;
+        font-size: 33px;
+        color: grey;
+    }
+    .container-main{
+        margin-top: 35px;
+    }
+    .plane{
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-block;
+        width: 50px;
+    }
+    .content .left{
+        width: 800px;
+        float: left;
+    }
+    .content .right{
+        width: 300px;
+        float: left;
+        background-image: url('assets/map398x194px.png');
+        background-repeat: no-repeat;
+        background-position: top center;
+        padding-top: 150px;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 500px;
+        position: relative;
+    }
+    .row{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top: 1px solid #ccc;
+        width: 100%;
+    }
+    .airplan{
+        display: inline-block;
+        width: 40px;
+    }
+    .two-lines{
+        display: inline-block;
+    }
+    .right-image{
+        
+    }
+    .content{
+        height: 80vh;
+        position: relative;
+    }
+    .bottom-btn{
+        background-color: green;
+        text-align: center;
+        display: inline-block;
+        padding: 15px 25px;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .two-lines{
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .airplan{
+        display: inline-block;
+    }
+    .price-bottom{
+        position: absolute;
+        font-size: 20px;
+        display: inline-block;
+        width: 100%;
+        text-align: right;
+    }
+    .row-alternate{
+        position: relative;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .row-alternate-right{
+        position: absolute;
+        right: 0;
+    }
+</style>
+<body>
+    <div class="container container-main">
+        <h1 class="mainh">
+            Los Angeles
+        </h1>
+        <img src="assets/arrow_flight.svg" class="plane">
+        <h1>
+            San Francisco
+        </h1>
+    </div>
+    <div class="container content">
+        <div class="left">
+            <div class="row">
+                <img src="assets/airline_logo32x32px.png" width="32" class="airplan">
+                <div class="two-lines">
+                    <span class="first">5:05 - 6:41</span><br>
+                    <span class="second">Sat nov</span>
+                </div><div class="two-lines">
+                    <span class="first">5:05 - 6:41</span><br>
+                    <span class="second">Los Angeles => San franciso</span>
+                </div>
+            </div>
+            <div class="row">
+                <span class="heading-second">PASSENGERS</span>
+                <div class="lines-two">
+                    Mr Michal Miller</br>
+                    Mr Jan Henberger
+                </div>
+            </div>
+        </div>
+        <div class="right right-image">
+            <img src="assets/photos360x74px.png">
+            <div class="row-alternate">
+                2x passenger
+                <div class="row-alternate-right">
+                    $128
+                </div>
+            </div>
+            <div class="row-alternate">
+                
+                1x handbaggage
+            </div>
+            
+            <span class="price-bottom">$128</span>
+        </div>
+        <div class="cf"></div>
+        <a class="bottom-btn">Pay $128</a>
+    </div>
+</body>

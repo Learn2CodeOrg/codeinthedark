@@ -1,0 +1,212 @@
+<style>
+@font-face {
+  font-family: 'Roboto';
+  font-style: light;
+  font-weight: 300;
+  src: url('assets/fonts/roboto-v15-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Light'), local('Roboto-Light'),
+       url('assets/fonts/roboto-v15-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/roboto-v15-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('assets/fonts/roboto-v15-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('assets/fonts/roboto-v15-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('assets/fonts/roboto-v15-latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/roboto-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('assets/fonts/roboto-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/roboto-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('assets/fonts/roboto-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('assets/fonts/roboto-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('assets/fonts/roboto-v15-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: bold;
+  font-weight: 700;
+  src: url('assets/fonts/roboto-v15-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+       url('assets/fonts/roboto-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/roboto-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('assets/fonts/roboto-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('assets/fonts/roboto-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('assets/fonts/roboto-v15-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    body{
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        height: 100vh;
+        background-image: url('assets/hero-image2559x647px.jpg');
+        background-size: cover;
+        background-position: center center;
+    }
+    .header{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .cf:after, .cf:before{
+        display: table;
+        content: ' ';
+    }
+    .cf:after {
+        clear: both;
+    }
+    .logo, .menu, .btns{
+        float:left;
+    }
+    .logo{
+        width: 30%;
+    }
+    .menu{
+        width: 50%;
+    }
+    .btns{
+        width: 20%;
+    }
+    .btns{
+        text-align: right;
+    }
+    ul{
+        display: inline-block;
+    }
+    .btns a{
+        display: inline-block;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    .menu li{
+        display: inline-block;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .container{
+        width: 1100px;
+        margin: 0 auto;
+    }
+    .subheader{
+        text-align: center;
+        padding-top: 90px;
+        padding-bottom: 20px;
+    }
+    .heading{
+        text-align: center;
+    }
+    h1{
+        font-size: 30px;
+        display: inline-block;
+        width: 100%;
+    }
+    h2{
+        font-weight: 400;
+        font-size: 23px;
+        padding-top: 50px;
+    }
+    .green-btn{
+        display: inline-block;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 35px;
+        padding-right: 35px;
+        background: #70bd4e;
+    }
+    .request-demo-btn{
+        display: inline-block;
+        text-align: center;
+        
+    }
+    .content .left{
+        float: left;
+        width: 60%;
+    }
+    .content .right{
+        float: left;
+        width: 40%;
+    }
+    .join-event{
+         display: inline-block;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 35px;
+        padding-right: 35px;
+        text-align: center;
+        border: 1px solid white;
+        text-transform: uppercase;
+    }
+    .join-event span{
+        text-decoration: underline;
+    }
+    .white-box{
+        display: inline-block;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 35px;
+        padding-right: 35px;
+        background: white;
+    }
+    .content_top{
+        margin-top: 100px;
+    }
+</style>
+<body>
+    <div class="container">
+        
+    
+    <div class="header">
+        <div class="logo">
+            <img src="assets/slido-logo554x176px.svg" width="250">
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="#">Pricing </a>
+                </li>
+                <li>
+                    <a href="#">Features </a>
+                </li>
+                <li>
+                    <a href="#">testominial </a>
+                </li>
+                <li>
+                    <a href="#">contact </a>
+                </li>
+            </ul>
+        </div>
+        <div class="btns">
+            <a href="#">Login</a>
+            <a href="#">Signup</a>
+        </div>
+        <div class="cf"></div>
+    </div>
+    
+    <div class="subheader">
+        <img src="assets/video-play-icon24x24px.svg" width="24" height="24">
+    </div>
+    <div class="heading">
+        <h1>Audience Interaction made easy</h1>
+        <h2>
+            Live QA Polls and votes
+        </h2>
+    </div>
+    <div class="content content_top">
+        <div class="left">
+            <div class="white-box"># event code</div>
+            <a class="join-event">Join Event</a>
+        </div>
+        <div class="right">
+            <a class="green-btn">+ CREATE EVENT</a>
+            <a class="request-demo-btn">or <span>request demo</span></a>
+        </div>
+        <div class="cf"></div>
+    </div>
+    </div>
+</body>
